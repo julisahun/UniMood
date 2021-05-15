@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9DDEE6"
+    tools:context=".MainActivity10">
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="470dp"
+        android:layout_height="458dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/rector10" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="248dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="20dp"
+        android:text="Velocirrector"
+        android:textColor="#000000"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+</androidx.constraintlayout.widget.ConstraintLayout>

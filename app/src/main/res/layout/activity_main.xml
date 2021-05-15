@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9DDEE6"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/btnVelocirector"
+        android:layout_width="164dp"
+        android:layout_height="121dp"
+        android:background="#473D40"
+        android:backgroundTint="#A58E8E"
+        android:text="😡"
+        android:textSize="50dp"
+        android:translationX="25dp"
+        android:translationY="10dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="164dp"
+        android:layout_height="121dp"
+        android:text="🤑"
+        android:textSize="50dp"
+        android:translationX="25dp"
+        android:translationY="10dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="164dp"
+        android:layout_height="121dp"
+        android:background="#592E2E"
+        android:backgroundTint="#9E7676"
+        android:text="🤠"
+        android:textSize="50dp"
+        android:translationX="25dp"
+        android:translationY="10dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="164dp"
+        android:layout_height="121dp"
+        android:text="👨‍🔬"
+        android:textSize="50dp"
+        android:translationX="25dp"
+        android:translationY="10dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="164dp"
+        android:layout_height="121dp"
+        android:background="#FF3D00"
+        android:backgroundTintMode="add"
+        android:text="👷‍♂️"
+        android:textSize="50dp"
+        android:translationX="25dp"
+        android:translationY="10dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="164dp"
+        android:layout_height="121dp"
+        android:text="🧙‍♂️"
+        android:textSize="50dp"
+        android:translationX="215dp"
+        android:translationY="-596dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="164dp"
+        android:layout_height="121dp"
+        android:text="🏄‍♂️"
+        android:textSize="50dp"
+        android:translationX="215dp"
+        android:translationY="-600dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="164dp"
+        android:layout_height="121dp"
+        android:text="🌟"
+        android:textSize="50dp"
+        android:translationX="215dp"
+        android:translationY="-600dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="164dp"
+        android:layout_height="121dp"
+        android:text="🕵️‍♀️"
+        android:textSize="50dp"
+        android:translationX="215dp"
+        android:translationY="-600dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="164dp"
+        android:layout_height="121dp"
+        android:text="🏃‍♂️"
+        android:textSize="60dp"
+        android:translationX="215dp"
+        android:translationY="-600dp" />
+
+</LinearLayout>
