@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mediaPlayer = MediaPlayer.create(this, R.raw.so_ambient);
         mediaPlayer.setLooping(true);
-        mediaPlayer.start();
 
 
         btn1 = (Button) findViewById(R.id.btnVelocirector);
